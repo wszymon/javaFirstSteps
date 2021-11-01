@@ -2,6 +2,7 @@ package com.company;
 
 public class Destroyer extends Ship{
     double firePower;
+    int cannonAmount;
 
     public Destroyer() {
     }
@@ -22,5 +23,16 @@ public class Destroyer extends Ship{
         this.cannonAmount = cannonAmount;
     }
 
-    int cannonAmount;
+    @Override
+    public String toString() {
+        return "Destroyer{" +
+                "id=" + id +
+                ", firePower=" + firePower +
+                ", cannonAmount=" + cannonAmount +
+                ", displacement=" + displacement +
+                ", field=" + field +
+                ", passengersAmount=" + passengersAmount +
+
+                '}';
+    }
 }

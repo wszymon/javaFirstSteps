@@ -13,4 +13,17 @@ public class AircraftCarrier extends Destroyer {
 
     public AircraftCarrier() {
     }
+
+    @Override
+    public String toString() {
+        return "AircraftCarrier{" +
+                "id=" + id +
+                ", allowableNumberOfAirplanes=" + allowableNumberOfAirplanes +
+                ", firePower=" + firePower +
+                ", cannonAmount=" + cannonAmount +
+                ", displacement=" + displacement +
+                ", field=" + field +
+                ", passengersAmount=" + passengersAmount +
+                '}';
+    }
 }
